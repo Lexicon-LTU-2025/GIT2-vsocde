@@ -2,7 +2,8 @@ const firstName = 'Johan';
 const lastName = 'Johansson';
 const fullname = `${firstName} ${lastName}`;
 
-console.log('First Name:', firstName);
-console.log('Last Name:', lastName);
-console.log('Name:', fullname);
-console.log('Firstname and Lastname:', firstName, lastName);
+const greet = (name) => {
+  console.log(`Hello stranger, are you the one called: ${name}?`);
+};
+
+greet(fullname);
