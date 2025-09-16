@@ -1,3 +1,5 @@
-const firstName = 'niklas';
+const firstName = 'Niklas';
+const lastName = 'Fähnrich';
+const fullname = `${firstName} ${lastName}`;
 
-console.log('Name:', firstName);
+console.log('Name:', fullname);
