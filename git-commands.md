@@ -100,7 +100,7 @@ Hämtar ner och integrerar (mergar) ändringar från fjärrrepo till den
 aktuella branchen.
 
 ```bash
-git pull origin main
+git pull
 ```
 
 ## `git push`
@@ -108,7 +108,7 @@ git pull origin main
 Laddar upp dina commits från din lokala branch till fjärrrepo.
 
 ```bash
-git push origin main
+git push 
 ```
 
 ## `git merge`
@@ -162,9 +162,4 @@ istället för att skriva om historien.
 
 ```bash
 git revert <commit-id>
-```
-
-```
-
-Vill du att jag gör en **ny md-fil** åt dig med detta tillägg också, så du kan ladda ner den?
 ```
